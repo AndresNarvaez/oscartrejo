@@ -1,0 +1,23 @@
+.row{
+	background-color: black;
+	color:white;
+}
+
+img{
+	padding: 20px;
+	width: 400px;
+	opacity: 0;
+	transition: opacity 2s;
+}
+h2{
+	opacity: 0;
+	transition: opacity 6s;
+}
+body:hover img{
+	opacity: 1;
+
+}
+body:hover h2{
+	opacity: 1;
+
+}
